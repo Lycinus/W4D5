@@ -18,7 +18,11 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_bot'
+end
+
+group :test do
   gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
 
 group :development do
